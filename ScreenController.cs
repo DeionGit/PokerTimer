@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//This script just helps avoiding the phone go sleeping while the timer is counting, nobody wants to get lost in high Blinds levels
 public class ScreenController : MonoBehaviour
 {
     public static ScreenController instance { get; private set; }
@@ -52,3 +53,4 @@ public class ScreenController : MonoBehaviour
             Screen.sleepTimeout = timeToSleep;
     }
 }
+
